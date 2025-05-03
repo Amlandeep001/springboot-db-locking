@@ -9,6 +9,10 @@ import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
+/**
+ * https://www.baeldung.com/jpa-optimistic-locking
+ */
+
 @Entity
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
