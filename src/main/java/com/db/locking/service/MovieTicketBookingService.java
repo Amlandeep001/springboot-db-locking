@@ -31,7 +31,7 @@ public class MovieTicketBookingService
 		}
 		// booking seat
 		seat.setBooked(true);
-		// version check will occurs here
+		// version check will occur here
 		return seatRepository.save(seat);
 	}
 
@@ -54,7 +54,7 @@ public class MovieTicketBookingService
 		System.out.println(Thread.currentThread().getName() + " booking the seat " + seatId);
 
 		seat.setBooked(true);
-		// version check will occurs here
+		// version check will occur here
 		seatRepository.save(seat);
 		System.out.println(Thread.currentThread().getName() + " successfully book the seat with ID " + seatId);
 	}
